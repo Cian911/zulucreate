@@ -1,0 +1,29 @@
+.well {	border-left:4px solid #daa520;}
+.introtitle {background:#daa520;}
+.blogbox a.metablog:hover,.blogbox a.metablog:focus {	color: #daa520;}
+.readmore,.reply {color:#daa520;}
+.captionicons {	background:#daa520;}
+#filter ul li .selected {color: #daa520 !Important;}
+.defaultbutton {	background:#daa520;}
+.testimonial-name {	color:#daa520;}
+a.prev:hover,a.next:hover {background-color: #daa520;}
+.colorme {color:#daa520;}
+.pagination ul>li>a:hover,.pagination ul>li>a:focus,.pagination ul>.active>a,.pagination ul>.active>span {background:#daa520;}
+blockquote {border-left:5px solid #daa520;}
+.totop:hover {background:#daa520;color:#fff;}
+::selection {background-color: #daa520; color: #fff;}
+
+
+.blogbox h1.entry-title a:hover, .blogbox a.metablog:hover, .blogbox a.metablog:focus, .metablog a:hover, .reply, a.reply, .reply a, .readmore, a .readmore, .more-link, a .more-link {color:#daa520;}
+.defaultbutton, .form-submit #submit, .pagination .currentpage, .pagination a:hover, .pagination-comments .current {background: #daa520;}
+#filter ul li .selected, #filter ul li a:hover {background: #daa520; color:#fff !important;}
+a {color: #daa520;}
+a:hover {color: #daa520;}
+.colorme {color:#daa520;}
+
+.panel {border-left:4px solid #daa520 !Important;}
+.wow-tabs ul.ui-tabs-nav .ui-state-active a {border-bottom:2px solid #daa520 !Important;}
+.sbutton.default{background:#daa520;}
+.wow-pricing-table .wow-pricing-per, .wow-pricing-table .wow-pricing-cost, .wow-button {background:#daa520 !important;}
+.wow-accordion .wow-accordion-trigger.ui-state-active {border-top:3px solid #daa520 !important;}
+.wow-pricing-table > div {border-top:3px solid #daa520 !Important;}

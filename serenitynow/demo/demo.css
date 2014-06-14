@@ -1,0 +1,54 @@
+.optionsbutton {
+position: fixed;
+top: 290px;
+left: -4px;
+border-radius: 0px;
+z-index: 100;
+background: #fff;
+border: 0px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #444;
+display: inline-block;
+font-size: 11px;
+font-weight: bold;
+text-decoration: none;
+text-shadow: 0 1px rgba(255,255,255,.75);
+cursor: pointer;
+margin-bottom: 20px;
+line-height: normal;
+padding: 8px 10px;
+font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+width: 45px;
+height: 45px;
+-webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+border-left: 1px dotted #CCC;
+}
+
+#skinoptions {
+webkit-box-shadow: rgb(0, 0, 0) 1px 1px 10px;
+box-shadow: rgb(0, 0, 0) 1px 1px 10px;
+position: fixed;
+top: 330px;
+left: 0px;
+z-index: 100;
+background-color: rgb(254, 254, 254);
+border: 1px solid rgb(221, 221, 221);
+width: 100px;
+min-height: 200px;
+padding: 10px 20px 35px;
+border-top-right-radius: 10px;
+display: none;
+background-position: initial initial;
+background-repeat: initial initial;
+}
+
+.optionscolor {
+width: 25px;
+height: 25px;
+border: 1px solid #fff;
+float: left;
+}
