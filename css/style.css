@@ -13,7 +13,13 @@ Tags: theme-options, custom-colors
 
 /* =Add your own CSS via Theme Options or here
 -------------------------------------------------------------- */
-
+ul li{
+	text-decoration: none;
+	list-style: none;
+}
+button{
+	padding:12px;
+}
 .main-profile-left{
 	border: 1px solid #ddd;
 	padding:10px;
@@ -33,4 +39,61 @@ Tags: theme-options, custom-colors
 	max-width: 180px;
 	max-height: 180px;
 	border-radius: 8px;
+}
+#user-info > p{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 3em;
+}
+#basic-info > li{
+	padding:8px;
+	margin-right:80px;
+	text-align: left;
+}
+#user-follow > li{
+	display: inline-block;
+	padding:5px;
+	text-align: left;
+	font-size: 22px;
+}
+#user-follow > li > span{
+	display: block;
+	text-align: center;
+	font-size: 8px;
+}
+#about-user{
+	text-align: left;
+	font-size: 12px;
+}
+#about-user > span{
+	font-size: 20px;
+	font-weight: bold;
+	padding:15px;
+}
+.btn-follow{
+	padding:10px;
+	text-transform: uppercase;
+	background: #71b7e6;
+	background-image: -webkit-linear-gradient(top, #71b7e6, #1d5b82);
+	background-image: -moz-linear-gradient(top, #71b7e6, #1d5b82);
+	background-image: -ms-linear-gradient(top, #71b7e6, #1d5b82);
+	background-image: -o-linear-gradient(top, #71b7e6, #1d5b82);
+	background-image: linear-gradient(to bottom, #71b7e6, #1d5b82);
+	border-radius: 3px;
+	color:#fff;
+	text-align: center;
+	text-shadow: none;
+	vertical-align: middle;
+	filter: none;
+	border: 0px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	font-size: 12px;
+}
+.btn-follow:hover{
+	cursor:pointer;
+	text-shadow:0 1px 0 #4E4E4E;
 }
