@@ -215,7 +215,7 @@
 				<!-- Start Row 1 -->
 				<div class="row">
 					<div class="col-md-4">
-						<figure class="effect-ruby" style="background-color:<?php $color[array_rand($color)]; ?>">
+						<figure class="effect-layla" style="background-color:<?php $color[array_rand($color)]; ?>">
 					        <img src="img/row-img-1.jpg" alt="img01" class="img-responsive"/>
 					        <figcaption>
 					            <h2>Nice <span>Lily</span></h2>
@@ -264,7 +264,7 @@
 					<div class="col-md-4">
 						<div class="thumbnail">
 							
-							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
+							<figure class="effect-layla" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-5.gif" class="img-responsive">
 						        <figcaption>
 						            <h2>Sublime <span>Text 2</span></h2>
