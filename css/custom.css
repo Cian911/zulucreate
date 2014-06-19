@@ -942,7 +942,6 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	transition:border linear 0.2s,box-shadow linear 0.2s;
 }
 .introtitle {
-	font-family:OpenSansLight;
 	background:#ff6666;
 	color:#fff;
 	padding:20px 30px 20px 30px;
@@ -951,7 +950,6 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .introtitle h1 {
 	margin-top:5px;
 	color:#fff;
-	font-family:OpenSansLight;
 }
 .well {
 	min-height:20px;
