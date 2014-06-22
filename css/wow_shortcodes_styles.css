@@ -1,0 +1,1173 @@
+/* Buttons
+================================================== */
+/* Shortcode  Buttons Set ---------------------- */
+.sbutton {display: inline-block;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+margin-bottom: 18px;text-decoration: none;border:0px;text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+cursor: pointer;position: relative;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.sbutton:hover {background:#555 !Important;}
+
+.sbutton.round {
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+
+.sbutton.square {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;}
+
+.sbutton.shadow{
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+
+.sbutton.noshadow{
+-moz-box-shadow: none;
+-webkit-box-shadow:none;
+box-shadow: none;}
+
+.sbutton.big {font-size:23px;
+padding: 14px 35px 16px;}
+
+.sbutton.medium {font-size:17px;
+padding: 10px 30px 12px;}
+
+.sbutton.small {font-size:15px;
+padding: 7px 15px 7px;}
+
+.sbutton.default {
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+  }
+
+.sbutton.black {
+background: #333;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+  }
+  
+.sbutton.blue {
+background: #2BA6CB;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.sbutton.teal {
+background: #3C9091;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+.sbutton.green {
+background: #8ea145;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.sbutton.orange {
+background: #da6f29;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.sbutton.violet {
+background: #8a4466;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.sbutton.red {
+background: #f2615c;
+color: white;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.sbutton.yellow {
+background: #f0b70d;
+color: #fff;
+text-shadow: none;
+opacity:1 !Important;
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+}
+
+.ei-title p {
+/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !Important;
+  }
+
+/* Clear Floats
+================================================== */
+.wow-clear-floats {
+	clear: both;
+}
+
+.wow-clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/* Spacing
+================================================== */
+.wow-spacing {
+	display: block;
+	height: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none !important;
+	outline: none !important;
+}
+
+/* Buttons
+================================================== */
+.wow-button {
+font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+margin: 5px 5px 5px 0;
+cursor: pointer;
+display: inline-block;
+white-space: nowrap;
+nowhitespace: afterproperty;
+text-align: center;
+outline: none;
+border-radius: 3px;
+background: #bbb;
+text-decoration: none !important;
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.wow-button span.wow-button-inner {
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	padding: 1.1em 1.4em;
+	line-height: 0.8em;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.35);
+	border-top: 1px solid #c3c3c3;
+	border-radius: 3px;
+}
+
+.wow-button:active {
+	text-decoration: none;
+	background: #7e7e7e;
+	background: -moz-linear-gradient(top,  #7e7e7e 0%, #aaaaaa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7e7e7e), color-stop(100%,#aaaaaa));
+	background: -webkit-linear-gradient(top,  #7e7e7e 0%,#aaaaaa 100%);
+	background: -o-linear-gradient(top,  #7e7e7e 0%,#aaaaaa 100%);
+	background: -ms-linear-gradient(top,  #7e7e7e 0%,#aaaaaa 100%);
+	background: linear-gradient(to bottom,  #7e7e7e 0%,#aaaaaa 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e7e7e', endColorstr='#aaaaaa',GradientType=0 );
+}
+
+.wow-button:hover {
+	text-decoration: none;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
+}
+
+.wow-button.black {
+	background: #505050;
+	background: -moz-linear-gradient(top,  #505050 0%, #101010 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#505050), color-stop(100%,#101010));
+	background: -webkit-linear-gradient(top,  #505050 0%,#101010 100%);
+	background: -o-linear-gradient(top,  #505050 0%,#101010 100%);
+	background: -ms-linear-gradient(top,  #505050 0%,#101010 100%);
+	background: linear-gradient(to bottom,  #505050 0%,#101010 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505050', endColorstr='#101010',GradientType=0 );
+	border: 1px solid #101010;
+}
+
+.wow-button.black:active {
+	background: #101010;
+	background: -moz-linear-gradient(top,  #101010 0%, #505050 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101010), color-stop(100%,#505050));
+	background: -webkit-linear-gradient(top,  #101010 0%,#505050 100%);
+	background: -o-linear-gradient(top,  #101010 0%,#505050 100%);
+	background: -ms-linear-gradient(top,  #101010 0%,#505050 100%);
+	background: linear-gradient(to bottom,  #101010 0%,#505050 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#505050',GradientType=0 );
+}
+
+.wow-button.black span.wow-button-inner {
+	border-top: 1px solid #6e6e6e;
+}
+
+.wow-button.red {
+	background: #d01d10;
+	background: -moz-linear-gradient(top,  #f36d64 0%, #d01d10 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f36d64), color-stop(100%,#d01d10));
+	background: -webkit-linear-gradient(top,  #f36d64 0%,#d01d10 100%);
+	background: -o-linear-gradient(top,  #f36d64 0%,#d01d10 100%);
+	background: -ms-linear-gradient(top,  #f36d64 0%,#d01d10 100%);
+	background: linear-gradient(to bottom,  #f36d64 0%,#d01d10 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36d64', endColorstr='#d01d10',GradientType=0 );
+	border: 1px solid #d01d10;
+}
+
+.wow-button.red span.wow-button-inner {
+	border-top: 1px solid #f69a93;
+}
+
+.wow-button.red:active {
+	background: #d01d10;
+	background: -moz-linear-gradient(top,  #d01d10 0%, #f36d64 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d01d10), color-stop(100%,#f36d64));
+	background: -webkit-linear-gradient(top,  #d01d10 0%,#f36d64 100%);
+	background: -o-linear-gradient(top,  #d01d10 0%,#f36d64 100%);
+	background: -ms-linear-gradient(top,  #d01d10 0%,#f36d64 100%);
+	background: linear-gradient(to bottom,  #d01d10 0%,#f36d64 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d01d10', endColorstr='#f36d64',GradientType=0 );
+}
+
+.wow-button.orange {
+	background: #fa9e19;
+	background: -moz-linear-gradient(top,  #fa9e19 0%, #fb6909 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa9e19), color-stop(100%,#fb6909));
+	background: -webkit-linear-gradient(top,  #fa9e19 0%,#fb6909 100%);
+	background: -o-linear-gradient(top,  #fa9e19 0%,#fb6909 100%);
+	background: -ms-linear-gradient(top,  #fa9e19 0%,#fb6909 100%);
+	background: linear-gradient(to bottom,  #fa9e19 0%,#fb6909 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa9e19', endColorstr='#fb6909',GradientType=0 );
+	border: 1px solid #FB6909;
+}
+
+.wow-button.orange span.wow-button-inner {
+	border-top: 1px solid #fcc87d;
+}
+
+.wow-button.orange:active {
+	background: #fb6909;
+	background: -moz-linear-gradient(top,  #fb6909 0%, #fa9e19 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb6909), color-stop(100%,#fa9e19));
+	background: -webkit-linear-gradient(top,  #fb6909 0%,#fa9e19 100%);
+	background: -o-linear-gradient(top,  #fb6909 0%,#fa9e19 100%);
+	background: -ms-linear-gradient(top,  #fb6909 0%,#fa9e19 100%);
+	background: linear-gradient(to bottom,  #fb6909 0%,#fa9e19 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb6909', endColorstr='#fa9e19',GradientType=0 );
+}
+
+.wow-button.blue {
+	background: #1571f0;
+	background: -moz-linear-gradient(top,  #41a7fc 0%, #1571f0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41a7fc), color-stop(100%,#1571f0));
+	background: -webkit-linear-gradient(top,  #41a7fc 0%,#1571f0 100%);
+	background: -o-linear-gradient(top,  #41a7fc 0%,#1571f0 100%);
+	background: -ms-linear-gradient(top,  #41a7fc 0%,#1571f0 100%);
+	background: linear-gradient(to bottom,  #41a7fc 0%,#1571f0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41a7fc', endColorstr='#1571f0',GradientType=0 );
+	border: 1px solid #1a6dd7;
+}
+
+.wow-button.blue span.wow-button-inner {
+	border-top: 1px solid #84c6fd;
+}
+
+.wow-button.blue:active {
+	background: #1571f0;
+	background: -moz-linear-gradient(top,  #1571f0 0%, #41a7fc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1571f0), color-stop(100%,#41a7fc));
+	background: -webkit-linear-gradient(top,  #1571f0 0%,#41a7fc 100%);
+	background: -o-linear-gradient(top,  #1571f0 0%,#41a7fc 100%);
+	background: -ms-linear-gradient(top,  #1571f0 0%,#41a7fc 100%);
+	background: linear-gradient(to bottom,  #1571f0 0%,#41a7fc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1571f0', endColorstr='#41a7fc',GradientType=0 );
+}
+
+.wow-button.rosy {
+	background: #f295a2;
+	background: -moz-linear-gradient(top,  #ee7787 0%, #e84a5f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee7787), color-stop(100%,#e84a5f));
+	background: -webkit-linear-gradient(top,  #ee7787 0%,#e84a5f 100%);
+	background: -o-linear-gradient(top,  #ee7787 0%,#e84a5f 100%);
+	background: -ms-linear-gradient(top,  #ee7787 0%,#e84a5f 100%);
+	background: linear-gradient(to bottom,  #ee7787 0%,#e84a5f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee7787', endColorstr='#e84a5f',GradientType=0 );
+	border: 1px solid #e84a5f;
+}
+
+.wow-button.rosy:active {
+	background: #e84a5f;
+	background: -moz-linear-gradient(top,  #e84a5f 0%, #ee7787 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e84a5f), color-stop(100%,#ee7787));
+	background: -webkit-linear-gradient(top,  #e84a5f 0%,#ee7787 100%);
+	background: -o-linear-gradient(top,  #e84a5f 0%,#ee7787 100%);
+	background: -ms-linear-gradient(top,  #e84a5f 0%,#ee7787 100%);
+	background: linear-gradient(to bottom,  #e84a5f 0%,#ee7787 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e84a5f', endColorstr='#ee7787',GradientType=0 );
+}
+
+.wow-button.rosy span.wow-button-inner {
+	border-top: 1px solid #f3a4af;
+}
+
+.wow-button.pink {
+	background: #e3618d;
+	background: -moz-linear-gradient(top,  #e3618d 0%, #cb245c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3618d), color-stop(100%,#cb245c));
+	background: -webkit-linear-gradient(top,  #e3618d 0%,#cb245c 100%);
+	background: -o-linear-gradient(top,  #e3618d 0%,#cb245c 100%);
+	background: -ms-linear-gradient(top,  #e3618d 0%,#cb245c 100%);
+	background: linear-gradient(to bottom,  #e3618d 0%,#cb245c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3618d', endColorstr='#cb245c',GradientType=0 );
+	border: 1px solid #cb245c;
+}
+
+.wow-button.pink:active {
+	background: #cb245c;
+	background: -moz-linear-gradient(top,  #cb245c 0%, #e3618d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb245c), color-stop(100%,#e3618d));
+	background: -webkit-linear-gradient(top,  #cb245c 0%,#e3618d 100%);
+	background: -o-linear-gradient(top,  #cb245c 0%,#e3618d 100%);
+	background: -ms-linear-gradient(top,  #cb245c 0%,#e3618d 100%);
+	background: linear-gradient(to bottom,  #cb245c 0%,#e3618d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb245c', endColorstr='#e3618d',GradientType=0 );
+}
+
+.wow-button.pink span.wow-button-inner {
+	border-top: 1px solid #eb8cac;
+}
+
+.wow-button.green {
+	color: #fff;
+	background: #88dd48;
+	background: -moz-linear-gradient(top,  #88dd48 0%, #5fb139 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#88dd48), color-stop(100%,#5fb139));
+	background: -webkit-linear-gradient(top,  #88dd48 0%,#5fb139 100%);
+	background: -o-linear-gradient(top,  #88dd48 0%,#5fb139 100%);
+	background: -ms-linear-gradient(top,  #88dd48 0%,#5fb139 100%);
+	background: linear-gradient(to bottom,  #88dd48 0%,#5fb139 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88dd48', endColorstr='#5fb139',GradientType=0 );
+	border-color: #60AE40;
+}
+
+.wow-button.green span.wow-button-inner {
+	border-top: 1px solid #b7ea90;
+}
+
+.wow-button.green:active {
+	background: #5fb139;
+	background: -moz-linear-gradient(top,  #5fb139 0%, #88dd48 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5fb139), color-stop(100%,#88dd48));
+	background: -webkit-linear-gradient(top,  #5fb139 0%,#88dd48 100%);
+	background: -o-linear-gradient(top,  #5fb139 0%,#88dd48 100%);
+	background: -ms-linear-gradient(top,  #5fb139 0%,#88dd48 100%);
+	background: linear-gradient(to bottom,  #5fb139 0%,#88dd48 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fb139', endColorstr='#88dd48',GradientType=0 );
+}
+
+.wow-button.brown {
+	background: #876565;
+	background: -moz-linear-gradient(top,  #876565 0%, #604848 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#876565), color-stop(100%,#604848));
+	background: -webkit-linear-gradient(top,  #876565 0%,#604848 100%);
+	background: -o-linear-gradient(top,  #876565 0%,#604848 100%);
+	background: -ms-linear-gradient(top,  #876565 0%,#604848 100%);
+	background: linear-gradient(to bottom,  #876565 0%,#604848 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#876565', endColorstr='#604848',GradientType=0 );
+	border: 1px solid #604848;
+}
+
+.wow-button.brown:active {
+	background: #604848;
+	background: -moz-linear-gradient(top,  #604848 0%, #876565 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#604848), color-stop(100%,#876565));
+	background: -webkit-linear-gradient(top,  #604848 0%,#876565 100%);
+	background: -o-linear-gradient(top,  #604848 0%,#876565 100%);
+	background: -ms-linear-gradient(top,  #604848 0%,#876565 100%);
+	background: linear-gradient(to bottom,  #604848 0%,#876565 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#604848', endColorstr='#876565',GradientType=0 );
+}
+
+.wow-button.brown span.wow-button-inner {
+	border-top: 1px solid #ae9393;
+}
+
+.wow-button.purple {
+	background: #524656;
+	background: -moz-linear-gradient(top,  #635569 0%, #372f3a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#635569), color-stop(100%,#372f3a));
+	background: -webkit-linear-gradient(top,  #635569 0%,#372f3a 100%);
+	background: -o-linear-gradient(top,  #635569 0%,#372f3a 100%);
+	background: -ms-linear-gradient(top,  #635569 0%,#372f3a 100%);
+	background: linear-gradient(to bottom,  #635569 0%,#372f3a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#635569', endColorstr='#372f3a',GradientType=0 );
+	border: 1px solid #372f3a;
+}
+
+.wow-button.purple:active {
+	background: #372f3a;
+	background: -moz-linear-gradient(top,  #372f3a 0%, #635569 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#372f3a), color-stop(100%,#635569));
+	background: -webkit-linear-gradient(top,  #372f3a 0%,#635569 100%);
+	background: -o-linear-gradient(top,  #372f3a 0%,#635569 100%);
+	background: -ms-linear-gradient(top,  #372f3a 0%,#635569 100%);
+	background: linear-gradient(to bottom,  #372f3a 0%,#635569 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#372f3a', endColorstr='#635569',GradientType=0 );
+}
+
+.wow-button.purple span.wow-button-inner {
+	border-top: 1px solid #7e6c85;
+}
+
+.wow-button.gold {
+	background: #ffc750;
+	background: -moz-linear-gradient(top,  #ffc750 0%, #faaa00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc750), color-stop(100%,#faaa00));
+	background: -webkit-linear-gradient(top,  #ffc750 0%,#faaa00 100%);
+	background: -o-linear-gradient(top,  #ffc750 0%,#faaa00 100%);
+	background: -ms-linear-gradient(top,  #ffc750 0%,#faaa00 100%);
+	background: linear-gradient(to bottom,  #ffc750 0%,#faaa00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc750', endColorstr='#faaa00',GradientType=0 );
+	border: 1px solid #faaa00;
+}
+
+.wow-button.gold:active {
+	background: #faaa00;
+	background: -moz-linear-gradient(top,  #faaa00 0%, #ffc750 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faaa00), color-stop(100%,#ffc750));
+	background: -webkit-linear-gradient(top,  #faaa00 0%,#ffc750 100%);
+	background: -o-linear-gradient(top,  #faaa00 0%,#ffc750 100%);
+	background: -ms-linear-gradient(top,  #faaa00 0%,#ffc750 100%);
+	background: linear-gradient(to bottom,  #faaa00 0%,#ffc750 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faaa00', endColorstr='#ffc750',GradientType=0 );
+}
+
+.wow-button.gold span.wow-button-inner {
+	color: #9C6533;
+	text-shadow: 1px 1px 1px #ffe2a5;
+	border-top: 1px solid #ffd783;
+}
+
+.wow-button.teal {
+	background: #3c9091;
+	background: -moz-linear-gradient(top,  #3c9091 0%, #286061 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c9091), color-stop(100%,#286061));
+	background: -webkit-linear-gradient(top,  #3c9091 0%,#286061 100%);
+	background: -o-linear-gradient(top,  #3c9091 0%,#286061 100%);
+	background: -ms-linear-gradient(top,  #3c9091 0%,#286061 100%);
+	background: linear-gradient(to bottom,  #3c9091 0%,#286061 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9091', endColorstr='#286061',GradientType=0 );
+	border: 1px solid #286061;
+}
+
+.wow-button.teal:active {
+	background: #286061;
+	background: -moz-linear-gradient(top,  #286061 0%, #3c9091 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#286061), color-stop(100%,#3c9091));
+	background: -webkit-linear-gradient(top,  #286061 0%,#3c9091 100%);
+	background: -o-linear-gradient(top,  #286061 0%,#3c9091 100%);
+	background: -ms-linear-gradient(top,  #286061 0%,#3c9091 100%);
+	background: linear-gradient(to bottom,  #286061 0%,#3c9091 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#286061', endColorstr='#3c9091',GradientType=0 );
+}
+
+.wow-button.teal span.wow-button-inner {
+	border-top: 1px solid #63bdbf;
+}
+
+.wow-button.navy {
+	background: #2c76cf;
+	background: -moz-linear-gradient(top,  #2c76cf 0%, #1d4e89 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c76cf), color-stop(100%,#1d4e89));
+	background: -webkit-linear-gradient(top,  #2c76cf 0%,#1d4e89 100%);
+	background: -o-linear-gradient(top,  #2c76cf 0%,#1d4e89 100%);
+	background: -ms-linear-gradient(top,  #2c76cf 0%,#1d4e89 100%);
+	background: linear-gradient(to bottom,  #2c76cf 0%,#1d4e89 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c76cf', endColorstr='#1d4e89',GradientType=0 );
+	border: 1px solid #1d4e89;
+}
+
+.wow-button.navy:active {
+	background: #1d4e89;
+	background: -moz-linear-gradient(top,  #1d4e89 0%, #2c76cf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1d4e89), color-stop(100%,#2c76cf));
+	background: -webkit-linear-gradient(top,  #1d4e89 0%,#2c76cf 100%);
+	background: -o-linear-gradient(top,  #1d4e89 0%,#2c76cf 100%);
+	background: -ms-linear-gradient(top,  #1d4e89 0%,#2c76cf 100%);
+	background: linear-gradient(to bottom,  #1d4e89 0%,#2c76cf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d4e89', endColorstr='#2c76cf',GradientType=0 );
+}
+
+.wow-button.navy span.wow-button-inner {
+	border-top: 1px solid #619ade;
+}
+
+.wow-button {
+	font-size: 13px;
+}
+
+.wow-button.large {
+	font-size: 16px;
+}
+
+.wow-button.giant {
+	font-size: 18px;
+}
+
+.wow-button.left {
+	float: left;
+}
+
+.wow-button.right {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/* Testimonial
+================================================== */
+.wow-testimonial-content {
+	font-style: italic;
+	position: relative;
+	background: #f5f5f5;
+	padding: 15px;
+	color: #666;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.wow-testimonial-content:after {
+	content: "";
+	position: absolute;
+	left: 12px;
+	bottom: -15px;
+	width: 0px;
+	height: 0px;
+	border-bottom: 15px solid rgba(255,255,255,0);
+	border-top: 15px solid rgba(255,255,255,0);
+	border-right: 15px solid #f5f5f5;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.wow-testimonial-content p:last-child {
+	margin: 0;
+}
+
+.wow-testimonial-author {
+	font-size: 1em;
+	margin-top: 25px;
+	margin-left: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+/* Boxes
+================================================== */
+
+/*main*/
+.wow-box {
+	display: block;
+	float: left;
+	padding: 15px;
+	margin: 10px 0;
+	font-size: 1em;
+	border-radius: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wow-box p:last-child {
+	margin: 0;
+}
+
+/*aligns*/
+.wow-box.left {
+	float: left;
+}
+
+.wow-box.right {
+	float: right;
+}
+
+/*colors*/
+.wow-box.gray {
+	color: #666;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+}
+
+.wow-box.red {
+	color: #de5959;
+	background: #ffe9e9;
+	border: 1px solid #fbc4c4;
+}
+
+.wow-box.green {
+	color: #5f9025;
+	background: #ebf6e0;
+	border: 1px solid #b3dc82;
+}
+
+.wow-box.blue {
+	color: #5091b2;
+	background: #e9f7fe;
+	border: 1px solid #b6d7e8;
+}
+
+.wow-box.yellow {
+	color: #c4690e;
+	background: #fffdf3;
+	border: 1px solid #f2dfa4;
+}
+
+/* Toggle
+================================================== */
+.wow-toggle .wow-toggle-trigger {
+	display: block;
+	color: #555;
+	display: block;
+	padding: 15px 15px 15px 37px;
+	border: 1px solid #eee;
+	background: #f9f9f9 url("images/plus.png") no-repeat 15px center;
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0;
+	margin-top: 10px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.wow-toggle .wow-toggle-trigger:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+.wow-toggle .wow-toggle-trigger.active,
+.wow-toggle .wow-toggle-trigger.active:hover {
+	color: #000;
+	background-color: #f6f6f6;
+	background-image: url("images/minus.png");
+	text-decoration: none;
+}
+
+.wow-toggle .wow-toggle-container {
+	display: none;
+	overflow: hidden;
+	padding: 15px;
+	border: 1px solid #eee;
+	border-top: 0px;
+}
+
+/* Accordion
+================================================== */
+.wow-accordion h3.wow-accordion-trigger {
+	display: block;
+	color: #555;
+	display: block;
+	padding: 15px 15px 15px 37px;
+	border: 1px solid #ddd;
+	background: #f6f6f6 url("images/plus.png") no-repeat 15px center;
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin:-1px 0 0 !important;
+	cursor: pointer;
+}
+
+.wow-accordion h3.wow-accordion-trigger a {
+	color: #555;
+	text-decoration: none !important;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.wow-accordion .ui-state-focus {
+	outline: none;
+}
+
+.wow-accordion .wow-accordion-trigger:hover {
+	
+	text-decoration: none;
+}
+
+.wow-accordion .wow-accordion-trigger.ui-state-active {	
+	background: #fff url("images/minus.png") no-repeat 15px center;
+	text-decoration: none;
+	border-top: 3px solid #3C9091;
+	border-bottom:0px;
+}
+
+.wow-accordion .wow-accordion-trigger.ui-state-active a {
+	color: #000;
+}
+
+.wow-accordion .ui-accordion-content {
+	background-color: #fff;
+	padding: 0px 15px 15px 15px;
+	border: 1px solid #ddd;
+	border-top: 0px;
+}
+
+.wow-accordion .ui-accordion-content p:last-child {
+	margin: 0px;
+}
+
+.wow-accordion .ui-icon {
+	margin-right: 7px;
+}
+.wow-accordion {
+margin-bottom: 20px;}
+
+/* Tabs
+================================================== */
+.wow-tabs ul.ui-tabs-nav {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 1px #ddd;
+	margin-left: 1px;
+}
+
+.wow-tabs ul.ui-tabs-nav li {
+	display: block;
+	width: auto;
+	height: 40px;
+	padding: 0 !important;
+	float: left !important;
+	margin: 0 !important;
+	outline: none;
+}
+
+.wow-tabs ul.ui-tabs-nav li a {
+	display: block;
+	text-decoration: none;
+	width: auto;
+	height: 39px;
+	padding: 0 20px;
+	line-height: 40px;
+	margin: 0;
+	color: #3C3C3C;
+	outline: none;
+}
+
+.wow-tabs ul.ui-tabs-nav li a:hover {
+	color: #333;
+}
+
+.wow-tabs ul.ui-tabs-nav .ui-state-active a {
+	border-bottom: 3px solid #3C9091;
+	height: 40px;
+	position: relative;
+	font-weight: bold;
+}
+
+.wow-tabs ul.ui-tabs-nav .ui-state-active a:hover {
+	
+}
+
+.wow-tabs ul.ui-tabs-nav li:first-child .ui-state-active a {
+	margin-left: 0;
+}
+
+.wow-tabs ul.ui-tabs-nav li:first-child a {
+	
+}
+
+.wow-tabs .tab-content {
+	padding: 10px 0px;
+}
+
+.wow-tabs ul.tabs:before, ul.tabs:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.wow-tabs ul.tabs:after {
+	clear: both;
+}
+
+.wow-tabs ul.tabs {
+	zoom: 1;
+}
+
+.wow-tabs .ui-tabs-hide {
+	display: none;
+}
+
+.wow-tabs:before, ul.wow-tabs:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.wow-tabs:after {
+	clear: both;
+}
+
+.wow-tabs {
+	zoom: 1;
+}
+
+.wow-tabs .ui-tabs-hide {
+	display: none;
+}
+
+
+/* Pricing Table
+================================================== */
+.wow-pricing-table {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+transition: 0.3s;
+}
+
+.wow-pricing-table div {
+	list-style: none;
+}
+
+.wow-pricing-table > div {
+	margin-right: 2%;
+	list-style: none;
+	text-shadow: none;
+	margin-bottom: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	border-top:#3C9091 3px solid;
+}
+
+.wow-pricing-table:hover {
+webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+z-index: 1;}
+
+.wow-pricing-table .wow-pricing-header {
+	
+	text-align: center;
+	padding: 20px 0;
+}
+
+.wow-pricing-table .wow-pricing-header h5 {
+	color: #333;
+	font-size: 1.313em;
+	margin: 0;
+	padding: 0 20px 10px;
+	font-weight: bold;
+}
+
+.wow-pricing-table .wow-pricing-cost {
+	color: #fff;
+	font-size: 1.500em;
+	line-height: 1em;
+	padding-top: 20px;
+	background: #3C9091;
+}
+
+.wow-pricing-table .wow-pricing-per {
+	font-size: 0.786em;
+	color: #fff;
+	background: #3C9091;
+	padding-bottom: 10px;
+}
+
+.wow-pricing-table .wow-pricing-content {
+	background: #fff;
+	font-size: 0.857em;
+	text-align: center;
+}
+
+.wow-pricing-table .wow-pricing-content ul {
+	margin: 0 !important;
+	list-style: none !important;
+}
+
+.wow-pricing-table .wow-pricing-content ul li {
+	margin: 0 !important;
+	padding: 10px 20px !important;
+	border-bottom: 1px solid #eee;
+	list-style: none !important;
+}
+
+.wow-pricing-table .wow-pricing-content ul li:nth-child(2n+2) {
+	background: #F9F9F9;
+}
+
+.wow-pricing-table .wow-pricing-button {
+	background: #fff;
+	text-align: center;
+	border-top: 1px solid #fff;
+	padding: 20px;
+}
+
+.wow-pricing-table .wow-pricing-button .wow-button {
+	float: none;
+	margin: 0 auto;
+}
+
+
+/* Boxes
+================================================== */
+.boxolive
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#EEF4D4;
+	border:1px solid #8FAD3D;
+	color:#596C26;
+	display:block;
+	margin-bottom:20px;
+	margin-top:5px;
+	padding:25px 25px 25px 25px;
+}
+
+.boxblue
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#E1EBEB;
+	border:1px solid #A8C6C6;
+	color:#555;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 20px;
+}
+
+.boxgreen
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#E9FFD2;
+	border:1px solid #ACFF59;
+	color:#596C26;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
+}
+
+.boxred
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#FCE2D4;
+	border:1px solid #F1C0A8;
+	color:#000;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
+}
+
+
+.boxgray
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#f5f5f5;
+	border:1px solid #DDD;
+	color:#596C26;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
+}
+
+.boxyellow
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#Fffdf3;
+	border:1px solid #F2DFA4;
+	color:#C4690E;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
+}
+
+.boxwhite
+{
+	-moz-border-radius:6px;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4);
+	background:#fff;
+	border:1px solid #e5e5e5;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:25px 25px 25px 25px;
+}
+
+.panel 
+{
+min-height: 20px;
+padding: 19px;
+margin-top: 10px;
+background-color: #f5f5f5;
+border: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+background: url(images/stripes.png) repeat left top;
+border-left: 4px solid #ff6666;
+}
+
+.box1 {background: #fff;
+border: 1px solid #eee;
+padding: 20px;
+margin-bottom: 20px;
+position:relative;}
+
+.box1 h6 {
+font-size: 18px;
+text-transform: uppercase;
+margin-top: -43px;
+margin-bottom: 20px;
+}
+
+.striped {
+background: url(images/stripes.png) repeat;
+min-height: 45px;
+margin-top: -19px;
+padding-left: 20px;
+margin-left: -20px;
+margin-right: -20px;
+border-bottom: 1px solid #f3f3f3;
+}
+
+.box2 {
+background: #fff;
+border: 1px solid #ececec;
+padding: 20px;
+border-bottom: medium double #eee;
+border-top: medium double #eee;
+position:relative;
+margin-bottom: 20px;
+}
+
+.box2 h1 {
+border-bottom: medium double #eee;
+font-size: 20px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+text-transform: uppercase;
+line-height: 0;
+margin-top: 5px;
+}
+
+.box3 {background: #fff;
+border: 1px solid #eee;
+padding: 20px;
+margin-bottom: 20px;}
+
+.boxlink {
+text-align: right;
+right: 0px;
+position: absolute;
+bottom: 0px;
+}
+
+.boxlink .defaultbutton {
+padding:5px 13px 7px;
+-moz-box-shadow:none;
+-webkit-box-shadow: none;
+box-shadow: none;}
+
+.bgtitle {background: #f5f5f5;
+margin-top: -20px;
+margin-left: -20px;
+margin-right: -20px;
+padding-left: 20px;
+margin-bottom: 30px;
+border-bottom: 1px solid #eee;}
+
+/*******************************************************************************************************************
+*    NIVO SLIDER                                                                                   
+*******************************************************************************************************************/
+.theme-default .nivo-controlNav{text-align:center;padding:20px 0 0 0;}
+.theme-default .nivo-controlNav a{cursor:pointer;display:inline-block;width:22px;height:22px;background:url(images/bullets.png) no-repeat;text-indent:-9999px;border:0;margin:0 2px}
+.theme-default .nivo-controlNav a.active{background-position:0 -22px}
+.theme-default .nivo-directionNav a{display:block;width:30px;height:30px;background:url(images/arrows.png) no-repeat;text-indent:-9999px;border:0;opacity:0;-webkit-transition:all 200ms ease-in-out;-moz-transition:all 200ms ease-in-out;-o-transition:all 200ms ease-in-out;transition:all 200ms ease-in-out}
+.theme-default a.nivo-nextNav{background-position:-30px 0;right:15px}
+.theme-default a.nivo-prevNav{left:15px}
+.theme-default .nivo-caption{font-family:Helvetica, Arial, sans-serif}
+.theme-default .nivo-caption a{color:#fff;border-bottom:1px dotted #fff}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a{width:auto;height:auto;background:none;margin-bottom:5px}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img{display:block;width:120px;height:auto}
+.nivoSlider{position:relative;height:auto;overflow:hidden}
+.nivoSlider img{position:absolute;top:0;left:0;max-width:none}
+.nivo-main-image{display:block!important;position:relative!important;width:100%!important}
+.nivoSlider a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;z-index:6;display:none;margin:0;padding:0}
+.nivoSlider:hover .nivo-directionNav a {opacity:1;}
+.nivo-slice{display:block;position:absolute;z-index:5;height:100%;top:0}
+.nivo-box{display:block;position:absolute;z-index:5;overflow:hidden}
+.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#fff;width:100%;z-index:8;opacity:0.8;overflow:hidden;display:none;-moz-opacity:0.8;filter:alpha(opacity=8);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:5px 10px}
+.nivo-caption p{margin:0;padding:5px}
+.nivo-caption a{display:inline!important}
+.nivo-directionNav a{position:absolute;top:45%;z-index:9;cursor:pointer}
+.nivo-prevNav{left:0}
+.nivo-nextNav{right:0}
+.nivo-controlNav{text-align:center;padding:15px 0}
+.detailslider{border:5px solid #FFF}
+.theme-default .nivoSlider{position: relative;box-shadow: 0 4px 2px -2px #ddd;margin-top: -5px;}
+.theme-default .nivoSlider img{position:absolute;top:0;left:0;display:none}
+.theme-default .nivoSlider a{border:0;display:block}
+/*******************************************************************************************************************

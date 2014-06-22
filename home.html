@@ -9,6 +9,8 @@
 	<link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/bootstrap-responsive.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/green2.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/prettyPhoto.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/wow_shortcodes_styles.css' type='text/css' media='all' />
 	<script type='text/javascript' src='js/jquery.js'></script>
 	<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
 	<script type="text/javascript">
@@ -56,11 +58,11 @@
 								<div class="nav-collapse collapse">
 									<ul id="menu-topmenu" class="nav">
 										<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item"><a href="index.html">Home</a></li>
-										<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a></li>
-										<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="job-search.html" class="dropdown-toggle" data-toggle="dropdown">Jobs</a></li>
-										<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="dropdown-toggle" data-toggle="dropdown">How It Works</a></li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="job-search.html">Jobs</a></li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">How It Works</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Signup</a></li>
-										<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a></li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Login</a></li>
 									</ul>
 								</div>
 							</div>
@@ -75,7 +77,19 @@
 		<!-- intro -->
 		<div class="introtitle">
 			<div class="container">
-				<p>Showcase, Connect &amp; Gain Exposure</p>
+				<!--<p>Showcase, Connect &amp; Gain Exposure</p>-->
+				<div class="row-fluid">
+					<div class="panel" style="padding: 0;">
+						<div class="span9">
+							<h1 style="text-align: center;">Showcase, Connect &amp; Gain Exposure</h1>
+						</div>
+						<div class="span3">
+							<!--<div style="height: 16px"></div>-->
+							<a href="#" class="sbutton square shadow medium default" style="background: #f2a020;">Get Started</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- /intro -->
@@ -86,198 +100,218 @@
 				<div class="span12">
 					<div id="filter">Filter:&nbsp;
 						<ul>
-							<li><a href="#" class="selected" data-filter="*">All</a>
-							</li>
-							<li class="segment-54"><a href="#" data-filter=".term-6" title="View all items under Buildings">Buildings</a>
-
-							</li>
-							<li class="segment-7"><a href="#" data-filter=".term-9" title="View all items under Cities">Cities</a>
-
-							</li>
-							<li class="segment-62"><a href="#" data-filter=".term-3" title="View all items under Fountains">Fountains</a>
-
-							</li>
-							<li class="segment-81"><a href="#" data-filter=".term-7" title="View all items under Landscapes">Landscapes</a>
-
-							</li>
+							<li><a href="#" class="selected" data-filter="*">All</a></li>
+							<li class="segment-54"><a href="#" data-filter=".term-6" title="View all items under Buildings">Buildings</a></li>
+							<li class="segment-7"><a href="#" data-filter=".term-9" title="View all items under Cities">Cities</a></li>
+							<li class="segment-62"><a href="#" data-filter=".term-3" title="View all items under Fountains">Fountains</a></li>
+							<li class="segment-81"><a href="#" data-filter=".term-7" title="View all items under Landscapes">Landscapes</a></li>
 						</ul>
+					</div>
+
+					<div id="fields">
+						<form id="filter-form">
+							<select id="creative" name="creative" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
+								<option value="" selected>Creative Fields section</option>
+								<option value="Architecture">Architecture</option>
+								<option value="Art Direction">Art Direction</option>
+								<option value="Branding">Branding</option>
+								<option value="Fashion">Fashion</option>
+								<option value="Graphic Design">Graphic Design</option>
+								<option value="Illustration">Illustration</option>
+								<option value="Industrial Design">Industrial Design</option>
+								<option value="Interaction Design">Interaction Design</option>
+								<option value="Motion Graphics">Motion Graphics</option>
+								<option value="Photography">Photography</option>
+								<option value="UI/UX">UI/UX</option>
+								<option value="Web Design">Web Design</option>
+							</select>
+
+							<select id="college" name="college" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
+								<option value="" selected>College</option>
+								<option value="1">1</option>
+							</select>
+
+							<input type="text" id="key" name="key" placeholder=" Search" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px;">
+
+							<input type="submit" class="sbutton square shadow small default" value="Apply" name="Apply">
+						</form>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- /container -->
+
 		<div class="container">
 			<div id="content">
 				<!-- Portfolio 4 Columns -->
 				<div data-order='1' data-id="id-1" class="boxportfolio4 term-9 ">
 					<div class="boxcontainer">
-						<img width="640" height="425" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/valencia-89570_640.jpg" class="attachment- wp-post-image" alt="valencia-89570_640" />
+						<img width="640" height="425" src="img/valencia-89570_640.jpg" class="attachment- wp-post-image" alt="valencia-89570_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/prague/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/valencia-89570_640.jpg" title="Prague"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/valencia-89570_640.jpg" title="Prague"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/prague/" title="Permanent Link to Prague">Prague</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Prague">Prague</a></h1>
 						<p>Czech Republic</p>
 					</div>
 				</div>
+
 				<div data-order='2' data-id="id-2" class="boxportfolio4 term-6 term-9 term-7 ">
 					<div class="boxcontainer">
-						<img width="600" height="800" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/philadelphia-51324_1280.jpg" class="attachment- wp-post-image" alt="philadelphia-51324_1280" />
+						<img width="600" height="800" src="img/philadelphia-51324_1280.jpg" class="attachment- wp-post-image" alt="philadelphia-51324_1280" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/rome-italy/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/philadelphia-51324_1280.jpg" title="Philadelphia"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/philadelphia-51324_1280.jpg" title="Philadelphia"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/rome-italy/" title="Permanent Link to Philadelphia">Philadelphia</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Philadelphia">Philadelphia</a></h1>
 						<p>brick building</p>
 					</div>
 				</div>
+
 				<div data-order='3' data-id="id-3" class="boxportfolio4 term-3 ">
 					<div class="boxcontainer">
-						<img width="640" height="425" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/switzerland-95581_640.jpg" class="attachment- wp-post-image" alt="switzerland-95581_640" />
+						<img width="640" height="425" src="img/switzerland-95581_640.jpg" class="attachment- wp-post-image" alt="switzerland-95581_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/chaux-de-fonds/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/switzerland-95581_640.jpg" title="Chaux de Fonds"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/switzerland-95581_640.jpg" title="Chaux de Fonds"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/chaux-de-fonds/" title="Permanent Link to Chaux de Fonds">Chaux de Fonds</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Chaux de Fonds">Chaux de Fonds</a></h1>
 						<p>fountain in Switzerland</p>
 					</div>
 				</div>
+
 				<div data-order='4' data-id="id-4" class="boxportfolio4 term-6 ">
 					<div class="boxcontainer">
-						<img width="600" height="900" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/an.png" class="attachment- wp-post-image" alt="an" />
+						<img width="600" height="900" src="img/an.png" class="attachment- wp-post-image" alt="an" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/europe-grunge/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/an.png" title="Europe Grunge"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/an.png" title="Europe Grunge"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/europe-grunge/" title="Permanent Link to Europe Grunge">Europe Grunge</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Europe Grunge">Europe Grunge</a></h1>
 						<p>ancient building</p>
 					</div>
 				</div>
+
 				<div data-order='5' data-id="id-5" class="boxportfolio4 term-9 ">
 					<div class="boxcontainer">
-						<img width="640" height="480" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/spain-93903_640.jpg" class="attachment- wp-post-image" alt="spain-93903_640" />
+						<img width="640" height="480" src="img/spain-93903_640.jpg" class="attachment- wp-post-image" alt="spain-93903_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/spain-2/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/spain-93903_640.jpg" title="Spain"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/spain-93903_640.jpg" title="Spain"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/spain-2/" title="Permanent Link to Spain">Spain</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Spain">Spain</a></h1>
 						<p>home architecture</p>
 					</div>
 				</div>
+
 				<div data-order='6' data-id="id-6" class="boxportfolio4 term-9 ">
 					<div class="boxcontainer">
-						<img width="640" height="480" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/beasain-91730_640.jpg" class="attachment- wp-post-image" alt="beasain-91730_640" />
+						<img width="640" height="480" src="img/beasain-91730_640.jpg" class="attachment- wp-post-image" alt="beasain-91730_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/spain/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/beasain-91730_640.jpg" title="Beasain"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/beasain-91730_640.jpg" title="Beasain"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/spain/" title="Permanent Link to Beasain">Beasain</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Beasain">Beasain</a></h1>
 						<p>spain pavilion</p>
 					</div>
 				</div>
+
 				<div data-order='7' data-id="id-7" class="boxportfolio4 term-6 ">
 					<div class="boxcontainer">
-						<img width="600" height="600" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/building-66789_640.jpg" class="attachment- wp-post-image" alt="building-66789_640" />
+						<img width="600" height="600" src="img/building-66789_640.jpg" class="attachment- wp-post-image" alt="building-66789_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/europe-france/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/building-66789_640.jpg" title="Europe France"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/building-66789_640.jpg" title="Europe France"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/europe-france/" title="Permanent Link to Europe France">Europe France</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Europe France">Europe France</a></h1>
 						<p>restaurant buffet</p>
 					</div>
 				</div>
+
 				<div data-order='8' data-id="id-8" class="boxportfolio4 term-3 ">
 					<div class="boxcontainer">
-						<img width="600" height="900" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/st-petersburg-84152_1280.jpg" class="attachment- wp-post-image" alt="st-petersburg-84152_1280" />
+						<img width="600" height="900" src="img/st-petersburg-84152_1280.jpg" class="attachment- wp-post-image" alt="st-petersburg-84152_1280" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/st-petersburg/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/st-petersburg-84152_1280.jpg" title="St. Petersburg"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/st-petersburg-84152_1280.jpg" title="St. Petersburg"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/st-petersburg/" title="Permanent Link to St. Petersburg">St. Petersburg</a></h1>
-
+						<h1><a href="#" title="Permanent Link to St. Petersburg">St. Petersburg</a></h1>
 						<p>russian fountain</p>
 					</div>
 				</div>
+
 				<div data-order='9' data-id="id-9" class="boxportfolio4 term-6 term-9 term-7 ">
 					<div class="boxcontainer">
-						<img width="640" height="480" src="http://www.wowthemes.net/demo-serenity/wp-content/uploads/sites/6/2013/04/denver-93543_640.jpg" class="attachment- wp-post-image" alt="denver-93543_640" />
+						<img width="640" height="480" src="img/denver-93543_640.jpg" class="attachment- wp-post-image" alt="denver-93543_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/garden-resort/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="img/denver-93543_640.jpg" title="Denver Colorado"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/denver-93543_640.jpg" title="Denver Colorado"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/garden-resort/" title="Permanent Link to Denver Colorado">Denver Colorado</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Denver Colorado">Denver Colorado</a></h1>
 						<p>city building</p>
 					</div>
 				</div>
+
 				<div data-order='10' data-id="id-10" class="boxportfolio4 term-7 ">
 					<div class="boxcontainer">
 						<img width="929" height="1280" src="img/uster-71211_1280.jpg" class="attachment- wp-post-image" alt="uster-71211_1280" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/switzerland/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="img/uster-71211_1280.jpg" title="Switzerland"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/uster-71211_1280.jpg" title="Switzerland"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/switzerland/" title="Permanent Link to Switzerland">Switzerland</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Switzerland">Switzerland</a></h1>
 						<p>church landscape</p>
 					</div>
 				</div>
+
 				<div data-order='11' data-id="id-11" class="boxportfolio4 term-7 ">
 					<div class="boxcontainer">
 						<img width="640" height="480" src="img/the-netherlands-96747_6401.jpg" class="attachment- wp-post-image" alt="the-netherlands-96747_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/netherlands/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="img/the-netherlands-96747_6401.jpg" title="Netherlands"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/the-netherlands-96747_6401.jpg" title="Netherlands"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/netherlands/" title="Permanent Link to Netherlands">Netherlands</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Netherlands">Netherlands</a></h1>
 						<p>green landscape</p>
 					</div>
 				</div>
+
 				<div data-order='12' data-id="id-12" class="boxportfolio4 term-6 ">
 					<div class="boxcontainer">
 						<img width="640" height="480" src="img/helsinki-94309_640.jpg" class="attachment- wp-post-image" alt="helsinki-94309_640" />
 						<div class="roll">
-							<div class="wrapcaption">   <a href="http://www.wowthemes.net/demo-serenity/ourportfolio/washington-dc/"><i class="icon-link captionicons"></i></a>
-<a data-gal="prettyPhoto[gallery]" href="img/helsinki-94309_640.jpg" title="Helsinki"><i class="icon-zoom-in captionicons"></i></a>
-
+							<div class="wrapcaption">
+								<a href="#"><i class="icon-link captionicons"></i></a>
+								<a data-gal="prettyPhoto[gallery]" href="img/helsinki-94309_640.jpg" title="Helsinki"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-							<h1><a href="http://www.wowthemes.net/demo-serenity/ourportfolio/washington-dc/" title="Permanent Link to Helsinki">Helsinki</a></h1>
-
+						<h1><a href="#" title="Permanent Link to Helsinki">Helsinki</a></h1>
 						<p>cathedral church</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div><!-- /content -->
+		</div><!-- /container -->
 
 		<!-- footer -->
 		<footer id="colophon" role="contentinfo">
@@ -289,11 +323,12 @@
 							<h1 class='title'>Get in touch</h1>
 
 							<p>If you have a specific project or event for us, get in touch today on:</p>
-							<i>+353 (0) 86 351 9395</i>
-							or contact@zulucreate.ie
-						</div><!-- /span12 -->
+							<i>+353 (0) 86 351 9395</i> or contact@zulucreate.ie
+						</div>
 					</div><!-- /row-fluid -->
+
 					<hr>
+
 					<!-- 2nd row -->
 					<div class="row-fluid">
 						<!-- left -->
