@@ -504,7 +504,7 @@ blockquote p {
 }
 .defaultbutton:hover,.form-submit #submit:hover {
 	color:#fff;
-	background:#333;
+	background:#5CA5F1;/*#333;*/
 }
 .blackbutton {
 	font-weight:normal;
