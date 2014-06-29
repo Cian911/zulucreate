@@ -22,11 +22,12 @@ button{
 }
 .main-profile-left{
 	border: 1px solid #ddd;
+	border-top:none;
 	/*box-shadow: 0 -2px 12px -4px;*/
 	-webkit-box-shadow: 1px 1px 6px 0px rgba(165, 165, 165, 0.51);
 	-moz-box-shadow:    1px 1px 6px 0px rgba(165, 165, 165, 0.51);
 	box-shadow:         1px 1px 6px 0px rgba(165, 165, 165, 0.51);	padding:10px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .main-profile-right{
 	padding: 10px;
@@ -65,11 +66,13 @@ button{
 	padding:5px;
 	text-align: left;
 	font-size: 22px;
+	color: #59A9E2;
 }
 #user-follow > li > span{
 	display: block;
 	text-align: center;
 	font-size: 11px;
+	color:#7E7E7E;
 }
 #about-user{
 	text-align: left;
@@ -80,7 +83,7 @@ button{
 	font-size: 18px;
 	font-weight: bold;
 	padding:15px;
-	margin-left:-10px;
+	margin-left:-14px;
 }
 .btn-follow{
 	padding:10px;

@@ -97,9 +97,8 @@
 				</div>
 			</div>
 		</div>
-		<!-- /intro -->
-<!-- Main Content - Profile Page -->
-
+	<!-- /intro -->
+	<!-- Main Content - Profile Page -->
 	<div class="row" style="margin-top:-60px;">
 		<div class="col-md-3">
 			<div class="main-profile-left">
@@ -110,7 +109,7 @@
 						<hr>
 					<ul id="basic-info">
 						<li><img src="img/location.png"> <a href="#">Dublin, Ireland</a></li>
-						<li><img src="img/link.png"><a href="#">ciangallagher.net</a></li>
+						<li><img src="img/link.png"><a href="#" style="margin-left:5px;">ciangallagher.net</a></li>
 						<li><img src="img/contact.png"> <a href="#">@Cian_911</a></li>
 					</ul>
 						<hr>
@@ -197,44 +196,8 @@
 						        </figcaption>         
 						    </figure>
 						</div>
-					
 				</div>
-				<!-- Start Row 3 -->
-				<br><br>
-				<div class="row">
-					<div class="col-md-4">
-							<figure class="effect-layla" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
-						       <img src="img/row-img-7.png" class="img-responsive">
-						        <figcaption>
-						            <h2>Building <span>Brands</span></h2>
-						            <p>Lily likes to play with crayons and pencils</p>
-						        </figcaption>         
-						    </figure>
-						
-					</div>
-					<div class="col-md-4">
-
-							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
-						       <img src="img/row-img-8.png" class="img-responsive">
-						        <figcaption>
-						            <h2>Building <span>Brands</span></h2>
-						            <p>Lily likes to play with crayons and pencils</p>
-						        </figcaption>         
-						    </figure>
-					</div>
-					<div class="col-md-4">
-						
-							
-							<figure class="effect-oscar" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
-						       <img src="img/row-img-9.gif" class="img-responsive">
-						        <figcaption>
-						            <h2>Building <span>Brands</span></h2>
-						            <p>Lily likes to play with crayons and pencils</p>
-						        </figcaption>         
-						    </figure>
-						
-					</div>
-				</div>
+				<!--/End Row 2-->
 			</div>
 		</div>
 	</div>
