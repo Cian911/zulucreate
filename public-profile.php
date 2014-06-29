@@ -224,19 +224,15 @@
 					    </figure>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
-							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
+							<figure class="effect-oscar" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						        <img src="img/row-img-2.png" class="img-responsive">
 						        <figcaption>
 						            <h2>Building <span>Brands</span></h2>
 						            <p>Lorem Ipsum</p>
 						        </figcaption>         
 						    </figure>
-						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
 							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						        <img src="img/row-img-3.jpg" class="img-responsive">
 						        <figcaption>
@@ -244,14 +240,13 @@
 						            <p>Lorem Ipsum</p>
 						        </figcaption>         
 						    </figure>
-						</div>
+						
 					</div>
 				</div>
+				<br><br>
 				<!-- Start Row 2 -->
 				<div class="row">
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
 							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-4.jpg" class="img-responsive">
 						        <figcaption>
@@ -259,11 +254,9 @@
 						            <p>Lorem Ipsum</p>
 						        </figcaption>         
 						    </figure>
-						</div>
+						
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
 							<figure class="effect-layla" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-5.gif" class="img-responsive">
 						        <figcaption>
@@ -271,11 +264,9 @@
 						            <p>Lorem Ipsum</p>
 						        </figcaption>         
 						    </figure>
-						</div>
+						
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
 							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       	<img src="img/row-img-6.png" class="img-responsive">
 						        <figcaption>
@@ -284,25 +275,23 @@
 						        </figcaption>         
 						    </figure>
 						</div>
-					</div>
+					
 				</div>
 				<!-- Start Row 3 -->
+				<br><br>
 				<div class="row">
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
-							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
+							<figure class="effect-layla" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-7.png" class="img-responsive">
 						        <figcaption>
 						            <h2>Building <span>Brands</span></h2>
 						            <p>Lily likes to play with crayons and pencils</p>
 						        </figcaption>         
 						    </figure>
-						</div>
+						
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
-							
+
 							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-8.png" class="img-responsive">
 						        <figcaption>
@@ -310,19 +299,18 @@
 						            <p>Lily likes to play with crayons and pencils</p>
 						        </figcaption>         
 						    </figure>
-						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="thumbnail">
+						
 							
-							<figure class="effect-ruby" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
+							<figure class="effect-oscar" <?php echo 'style="background-color:'.$color[array_rand($color)].';"';?>>
 						       <img src="img/row-img-9.gif" class="img-responsive">
 						        <figcaption>
 						            <h2>Building <span>Brands</span></h2>
 						            <p>Lily likes to play with crayons and pencils</p>
 						        </figcaption>         
 						    </figure>
-						</div>
+						
 					</div>
 				</div>
 			</div>
