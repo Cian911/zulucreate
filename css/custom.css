@@ -2,7 +2,7 @@
 ----------------------------------------------- */
 body {
 	background:#f9f9f9;
-	font:15px/25px 'OpenSansRegular',Arial,sans-serif;
+	font:15px/25px 'OpenSansRegular',Arial,sans-serif !important;
 	color:#666;
 }
 h1 {
