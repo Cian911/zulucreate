@@ -494,12 +494,16 @@ figure.effect-marley:hover p {
 	max-width:80%;
 }
 #page > li > span{
-	display: inline;
+	display: inline-block;
 	margin-right:50px;
 }
 #page > li > a > span{
-	display: inline;
+	display: inline-block;
 	margin-right:50px;
+}
+#page > li > span:nth-child(1){
+	text-align: left;
+	max-width: 80px;
 }
 #page > li > a > span:nth-child(2){
 	color: #4B8BD3;
