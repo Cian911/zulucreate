@@ -100,23 +100,21 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<div id="fields">
-						<form id="filter filter-form">
 							<p style="display:inline-block;padding:10px;">Filter: </p>
 							<select class="filter" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
-								<option data-filter="*">All</option>
-								<option data-filter=".term-6" value="Creative Fields">Creative Fields section</option>
+								<option data-filter="*" value="Creative Fields">Creative Fields section</option>
 								<option data-filter=".term-9" value="Architecture">Architecture</option>
 								<option data-filter=".term-3" value="Art Direction">Art Direction</option>
 								<option data-filter=".term-7" value="Branding">Branding</option>
-								<option value="Fashion">Fashion</option>
-								<option value="Graphic Design">Graphic Design</option>
-								<option value="Illustration">Illustration</option>
-								<option value="Industrial Design">Industrial Design</option>
-								<option value="Interaction Design">Interaction Design</option>
-								<option value="Motion Graphics">Motion Graphics</option>
-								<option value="Photography">Photography</option>
-								<option value="UI/UX">UI/UX</option>
-								<option value="Web Design">Web Design</option>
+								<option data-filter=".term-6" value="Fashion">Fashion</option>
+								<option data-filter=".term-6" value="Graphic Design">Graphic Design</option>
+								<option data-filter=".term-9" value="Illustration">Illustration</option>
+								<option data-filter=".term-6" value="Industrial Design">Industrial Design</option>
+								<option data-filter=".term-3" value="Interaction Design">Interaction Design</option>
+								<option data-filter=".term-6" value="Motion Graphics">Motion Graphics</option>
+								<option data-filter=".term-9" value="Photography">Photography</option>
+								<option data-filter=".term-6" value="UI/UX">UI/UX</option>
+								<option data-filter=".term-3" value="Web Design">Web Design</option>
 							</select>
 
 							<select id="college" name="college" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
@@ -124,6 +122,7 @@
 								<option value="1">1</option>
 							</select>
 
+						<form id="filter filter-form" class="pull-right">
 							<input type="text" id="key" name="key" placeholder=" Search" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px;">
 
 							<input type="submit" class="sbutton square shadow small default" value="Apply" name="Apply">
