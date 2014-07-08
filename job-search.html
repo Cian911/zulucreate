@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>ZuluCreate</title>
+		<title>ZuluCreate | Search Jobs</title>
 		<link rel='stylesheet' href='css/bootstrap.css?ver=3.9.1' type='text/css' media='all' />
 		<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
 		<link rel='stylesheet' href='css/icons.css' type='text/css' media='all' />
@@ -12,10 +12,10 @@
 		<link rel='stylesheet' href='css/bootstrap-responsive.css' type='text/css' media='all' />
 		<link rel='stylesheet' href='css/msblue.css' type='text/css' media='all' />
 		<link rel='stylesheet' href='css/bootstrap-grid.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/prettyPhoto.css' type='text/css' media='all' />
 		<link rel='stylesheet' href='css/wow_shortcodes_styles.css' type='text/css' media='all' />
 		<script type='text/javascript' src='js/jquery.js?ver=1.11.0'></script>
 		<script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<script type="text/javascript">
 			function addHandler(object, event, handler) {
 				if (typeof object.addEventListener != 'undefined') object.addEventListener(event, handler, false);
@@ -55,17 +55,17 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="brand" href="home.html" title="Zulu Create" rel="home" style="font-family:Pacifico;">Zulu Create</a>
+								<a class="brand" href="home.html" title="Zulu Create" rel="home">Zulu Create</a>
 
 								<div class="nav-collapse collapse">
-									<ul id="menu-topmenu" class="nav navbar-nav" style="margin-top:5px;">
+									<ul id="menu-topmenu" class="nav navbar-nav">
 										<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item"><a href="home.html">Home</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="job-search.html">Jobs</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">How It Works</a></li>
 									</ul>
 
-									<ul id="sign-topmenu" class="nav navbar-nav pull-right" style="margin-top:5px;">
+									<ul id="sign-topmenu" class="nav navbar-nav pull-right">
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Sign up</a></li>
 										<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Sign in</a></li>
 									</ul>
@@ -95,60 +95,196 @@
 			</div>
 		</div>
 		<!-- /intro -->
+		<!-- start filter -->
+		<!-- Portfolio Categories -->
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<div id="filter">Filter:&nbsp;
+						<ul>
+							<li><a href="#" class="selected" data-filter="*">All</a></li>
+							<li class="segment-54"><a href="#" data-filter=".term-6" title="View all items under Fashion">Fashion</a></li>
+							<li class="segment-7"><a href="#" data-filter=".term-9" title="View all items under Graphic/UX">Graphic/UX</a></li>
+							<li class="segment-62"><a href="#" data-filter=".term-3" title="View all items under Web Design">Web Design</a></li>
+							<li class="segment-81"><a href="#" data-filter=".term-7" title="View all items under Photography">Photography</a></li>
+						</ul>
+					</div>
+
+					<div id="fields">
+						<form id="filter-form">
+							<select id="creative" name="creative" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
+								<option value="" selected>Creative Fields section</option>
+								<option value="Architecture">Architecture</option>
+								<option value="Art Direction">Art Direction</option>
+								<option value="Branding">Branding</option>
+								<option value="Fashion">Fashion</option>
+								<option value="Graphic Design">Graphic Design</option>
+								<option value="Illustration">Illustration</option>
+								<option value="Industrial Design">Industrial Design</option>
+								<option value="Interaction Design">Interaction Design</option>
+								<option value="Motion Graphics">Motion Graphics</option>
+								<option value="Photography">Photography</option>
+								<option value="UI/UX">UI/UX</option>
+								<option value="Web Design">Web Design</option>
+							</select>
+
+							<select id="college" name="college" style="padding: 7px 15px 7px; font-size: 15px; margin-bottom: 18px; height: 36px; border-color: #eee;">
+								<option value="" selected>College</option>
+								<option value="1">1</option>
+							</select>
+
+							<input type="text" id="key" name="key" placeholder=" Search" style="padding: 17px; font-size: 15px; margin-bottom: 18px;">
+
+							<input type="submit" class="sbutton square shadow small default" value="Apply" name="Apply">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<!-- /end filter -->
 		<!-- Start main content -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="jobs-listings">
 						<center>
-							<ul id="page">
-								<li>
-									<span>2/07/2014</span>
-									<a href="#">
-										<span>Senior Applications Developer</span>
-									</a>
-									<span>Talent Scout</span>
-									<span>Dublin, City of Dublin, Ireland</span>
-								</li>
-								<li>
-									<span>2/07/2014</span>
-									<a href="#">
-										<span>Java Developer (Android)</span>
-									</a>
-									<span>Google</span>
-									<span>Dublin, City of Dublin, Ireland</span>
-								</li>
-								<li>
-									<span>2/07/2014</span>
-									<a href="#">
-										<span>IT Project Manager</span>
-									</a>
-									<span>Talent Scout</span>
-									<span>Dublin, City of Dublin, Ireland</span>
-								</li>
-								<li>
-									<span>2/07/2014</span>
-									<a href="#">
-										<span>PHP Senior Developer</span>
-									</a>
-									<span>Mobile Travel Tech</span>
-									<span>Dublin, City of Dublin, Ireland</span>
-								</li>
-								<li>
-									<span>2/07/2014</span>
-									<a href="#">
-										<span>Junior iOS Developer - $60,000</span>
-									</a>
-									<span>La Creme</span>
-									<span>Dublin, City of Dublin, Ireland</span>
-								</li>
-							</ul>
+							<div class="table-responsive">
+								<table class="table table-hover">
+									<thead>
+										<tr>
+											<th>Date</th>
+											<th>Job Title</th>
+											<th>Employeer</th>
+											<th>Location</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr data-order='1' data-id="id-1" class="term-6">
+											<td>2/07/2014</td>
+											<td><a href="#">Senior Applications Developer</a></td>
+											<td>Google</td>
+											<td>Dublin, City Centre, Ireland</td>
+
+										</tr>
+										<tr data-order='3' data-id="id-3" class="term-1">
+											<td>1/07/2014</td>
+											<td><a href="#">Software Engineer</a></td>
+											<td>CPL ICT</td>
+											<td>Dublin North</td>
+										</tr>
+										<tr data-order='3' data-id="id-3" class="term-3 term-6">
+											<td>4/07/2014</td>
+											<td><a href="#">Creative Digital Designer</a></td>
+											<td>VHM World</td>
+											<td>Dublin West</td>
+										</tr>
+										<tr data-order='4' data-id="id-4" class="term-3 term-6">
+											<td>2/07/2014</td>
+											<td><a href="#">Senior Applications Developer</a></td>
+											<td>Google</td>
+											<td>Dublin, City Centre, Ireland</td>
+										</tr>
+										<tr data-order='5' data-id="id-5" class="term-3 term-6">
+											<td>25/06/2014</td>
+											<td><a href="#">Oracle E-Business IT Technical Developer</a></td>
+											<td>Google</td>
+											<td>Dublin, City Centre, Ireland</td>
+										</tr>
+										<tr data-order='6' data-id="id-6" class="term-3 term-6">
+											<td>30/06/2014</td>
+											<td><a href="#">Graphic Designer</a></td>
+											<td>Hostelworld.ie</td>
+											<td>Dublin East</td>
+										</tr>
+										<tr data-order='7' data-id="id-7" class="term-3 term-6">
+											<td>2/07/2014</td>
+											<td><a href="#">Senior Transmissions Engineer</a></td>
+											<td>Three UK</td>
+											<td>London, England</td>
+										</tr>
+										<tr data-order='8' data-id="id-8" class="term-7">
+											<td>3/07/2014</td>
+											<td><a href="#">PHP/Java Developer</a></td>
+											<td>dotMobi</td>
+											<td>Dublin, IFSC</td>
+										</tr>
+										<tr data-order='9' data-id="id-9" class="term-3 term-6">
+											<td>2/07/2014</td>
+											<td><a href="#">QA Enginner</a></td>
+											<td>Google</td>
+											<td>Dublin, City Centre, Ireland</td>
+										</tr>
+										<tr data-order='8' data-id="id-8" class="term-3 term-6">
+											<td>2/07/2014</td>
+											<td><a href="#">IT Manager</a></td>
+											<td>dotMobi</td>
+											<td>Dublin, IFSC</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</center>
+						<div class="myPages">
+							<ul class="pagination">
+							  <li><a href="#">&laquo;</a></li>
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">3</a></li>
+							  <li><a href="#">4</a></li>
+							  <li><a href="#">5</a></li>
+							  <li><a href="#">&raquo;</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- End Content -->
+		<!-- footer -->
+		<footer id="colophon" role="contentinfo">
+			<div class="footer">
+				<div class="container">
+					<!-- 1st row -->
+					<div class="row-fluid">
+						<div class="span12 text-center">
+							<h1 class='title'>Get in touch</h1>
+
+							<p>If you have a specific project or event for us, get in touch today on:</p>
+							<i>+353 (0) 86 351 9395</i> or contact@zulucreate.ie
+						</div>
+					</div><!-- /row-fluid -->
+
+					<hr>
+
+					<!-- 2nd row -->
+					<div class="row-fluid">
+						<!-- left -->
+						<div class="span4 smallspacetop">
+							<p class="smaller"> <span class='copyright'>&copy; </span> 2014 Zulu Create</p>
+						</div>
+						<!-- middle -->
+						<div class="span4">
+							<div class="text-center">
+								<a class="totop"><i class="icon-chevron-up"></i></a>
+							</div>
+						</div>
+						<!-- right -->
+						<div class="span4 smallspacetop">
+							<ul class="social-links pull-right">
+								<li class="twitter-link"><a href="#" class="twitter" target="_blank" title="Follow Us on Twitter">Twitter</a></li>
+								<li class="facebook-link"><a href="#" class="facebook" target="_blank" title="Join us on Facebook">Facebook</a></li>
+								<li class="google-link"><a href="#" class="google" target="_blank" title="Google +">Google</a></li>
+								<li class="skype-link"><a href="#" class="skype" target="_blank" title="Skype">Skype</a></li>
+								<li class="rss-link"><a href="feed/rss/" class="rss" title="RSS Feeds">RSS Feeds</a></li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<!-- /right -->
+					</div><!-- /row-fluid -->
+				</div><!-- /container -->
+			</div><!-- /footer -->
+		</footer>
+		<!-- /footer -->
 			<!-- /footer -->
 			<link rel='stylesheet' id='wowprettyPhotocss-css' href='css/prettyPhoto.css?ver=3.9.1' type='text/css' media='all' />
 			<script type='text/javascript' src='js/jquery-1.9.0.min.js?ver=3.9.1'></script>
