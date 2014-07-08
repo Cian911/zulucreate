@@ -1644,3 +1644,10 @@ aside.testimonial {
 	display: inline;
 	margin-right: 20px;
 }
+.drop-down{
+	padding: 7px 15px 7px; 
+	font-size: 15px; 
+	margin-bottom: 18px; 
+	height: 36px; 
+	border-color: #eee;
+}
