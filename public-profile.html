@@ -104,7 +104,11 @@
 				<!-- Start profile Info -->
 				<div id="user-info">
 					<img src="img/profile1.jpg">
-					<p style="margin-left:-80px;">Oman Clark</p>
+					<ul id="user-info">
+						<li style="margin-right:100px;padding:3px;font-weight:bold;">Oman Clark</li>
+						<li style="margin-right:80px;padding:3px;color:#C6C6C6;">Web Developer</li>
+						<li style="cursor:pointer;margin-right:110px;color:#428bca;display:inline;margin-left:-25px;">#web #design #graphics #developer</li>
+					</ul>
 						<hr>
 					<ul id="basic-info">
 						<li><img src="img/location.png"> <a href="#">Dublin, Ireland</a></li>
@@ -113,19 +117,19 @@
 					</ul>
 						<hr>
 					<div id="user-following">
-						<button class="btn-follow" style="width:120px;">Following</button>
-						<button class="btn-follow">List</button>
-							<br><br>
-						<ul id="user-follow" style="margin-right:30px;">
-							<li>12,103 <span>Followers</span></li>
-							<li>101 <span>Following</span></li>
-							<li>13 <span>Listed</span></li>
-						</ul>
-							<hr>
 						<p id="about-user">
+							<!-- Limit chacters to 140 -->
 							<span>About Oman Clark</span><br><br>
-							ColumnLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br><br> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+								I'm a simple dude that is a designer at Palantir, a coffee fanatic and proud corgi owner.  
+							<i id="read-click" style="color:#428bca;text-decoration:underline;cursor:pointer;">Read More..</i>
+							<p id="read" style="display:none;">
+								<br>Contact me for more info or with any work / job offers.
+							</p>
 						</p>
+							<hr>
+						<button class="btn-follow" style="width:120px;">Following</button>
+						<button class="btn-follow" style="width:120px;">Message</button>	
+						<br>
 					</div>
 				</div>
 			</div>
@@ -135,66 +139,81 @@
 				<!-- Start Row 1 -->
 				<div class="row">
 					<div class="col-md-4">
-						<figure class="effect-layla" style="background-color:<?php $color[array_rand($color)]; ?>">
-					        <img src="img/row-img-1.jpg" alt="img01" class="img-responsive"/>
-					        <figcaption>
-					            <h2>Nice <span>Lily</span></h2>
-					            <p>Lily likes to play with crayons and pencils</p>
-					        </figcaption>         
-					    </figure>
+					    <div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-1.jpg" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
 					</div>
 					<div class="col-md-4">
-							<figure class="effect-oscar jq-hue">
-						        <img src="img/row-img-2.png" class="img-responsive">
-						        <figcaption>
-						            <h2>Building <span>Brands</span></h2>
-						            <p>Lorem Ipsum</p>
-						        </figcaption>         
-						    </figure>
+						<div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-2.png" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
 					</div>
 					<div class="col-md-4">
-							<figure class="effect-ruby jq-hue">
-						        <img src="img/row-img-3.jpg" class="img-responsive">
-						        <figcaption>
-						            <h2>Mobile <span>Phone</span></h2>
-						            <p>Lorem Ipsum</p>
-						        </figcaption>         
-						    </figure>
-						
+						<div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-3.jpg" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
 					</div>
 				</div>
 				<br><br>
 				<!-- Start Row 2 -->
 				<div class="row">
 					<div class="col-md-4">
-							<figure class="effect-ruby jq-hue">
-						       <img src="img/row-img-4.jpg" class="img-responsive">
-						        <figcaption>
-						            <h2>Static <span>Page</span></h2>
-						            <p>Lorem Ipsum</p>
-						        </figcaption>         
-						    </figure>
-						
+						<div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-4.jpg" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
 					</div>
 					<div class="col-md-4">
-							<figure class="effect-layla jq-hue">
-						       <img src="img/row-img-5.gif" class="img-responsive">
-						        <figcaption>
-						            <h2>Sublime <span>Text 2</span></h2>
-						            <p>Lorem Ipsum</p>
-						        </figcaption>         
-						    </figure>
-						
+						<div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-5.gif" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
 					</div>
 					<div class="col-md-4">
-							<figure class="effect-ruby jq-hue">
-						       	<img src="img/row-img-6.png" class="img-responsive">
-						        <figcaption>
-						            <h2>Building <span>Brands</span></h2>
-						            <p>Lily likes to play with crayons and pencils</p>
-						        </figcaption>         
-						    </figure>
-						</div>
+						<div class="thumbnail public-profile-img">
+					    	<img src="img/row-img-6.png" class="img-responsive"/>
+					    	<div class="caption">
+					    		<ul class="social-junk" style="margin-left:60px;">
+									<li><i class="icon-eye-open"></i> 2,944</li>
+									<li><i class="icon-comment"></i> 16</li>
+									<li><i class="icon-heart"></i> 183</li>
+								</ul>
+					    	</div>
+					    </div>
+					</div>
 				</div>
 				<!--/End Row 2-->
 			</div>
@@ -263,6 +282,12 @@ or contact@zulucreate.ie</div>
 					var colours = ['#17819c', '#179C6C', '#17569C', '#72179C'];
 					color = colours[Math.floor(colours.length * Math.random())];
 					$(this).css('background', color);
+				});
+
+				// Read more
+				$('#read-click').click(function() {
+					$('#read').fadeIn();
+					$(this).hide();
 				});
 			});
 			</script>
