@@ -33,4 +33,4 @@ a:hover {color:#2672EC;}
 
 .navbar-inverse .navbar-inner {min-height:inherit;}
 .navbar .brand, .navbar .nav {margin-top:auto;}
-.navbar .brand {padding:8px 20px;}
+.navbar .brand {padding:8px 20px;text-transform:none;}
